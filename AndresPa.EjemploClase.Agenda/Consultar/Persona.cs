@@ -1,11 +1,10 @@
-﻿namespace AndresPa.EjemploClase.Agenda.NuevaPersona;
+﻿namespace AndresPa.EjemploClase.Agenda.Consultar;
 
 internal class Persona
 {
-    public int Id { get; set; } //Id de la persona 
-
     //string => tiene valor.
     //string? => puede no tener valor.
+
     public string Tratamiento { get; set; } = string.Empty;
     public string Nombre { get; set; } = string.Empty;
     public string Apellido { get; set; } = string.Empty;
